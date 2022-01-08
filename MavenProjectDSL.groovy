@@ -2,7 +2,7 @@ job('First Maven Project DSL'){
 	//description for project
 	description("First Maven GEnereted By The DSL ${new Date()}")
 	scm{
-		git("https://github.com/ammouchi/jinkins_upgrade.git","master")
+		git("https://github.com/ammouchi/jinkins_upgrade.git",master)
 	}
 	triggers{
         scm('* * * * *')
