@@ -22,5 +22,12 @@ pipeline{
 			}
 
 		}
+		stage('DeployToProd'){
+			steps {
+				echo  'Deploying To Prod'
+				
+			}
+
+		}
 	}
 }
